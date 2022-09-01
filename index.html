@@ -11,6 +11,11 @@
   <title>E-Commerce Site</title>
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="./css/bootstrap.css">
+  
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+/>
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
@@ -42,14 +47,14 @@
             </ul>
             <ul class="navbar-nav  mb-2 mb-lg-0" d-flex">
               <li>
-                <form class="d-flex">
+                <form class="d-flex" action="/congrtulation.html">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                   <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
               </li>
               <li>
                 <!-- Button trigger modal -->
-                <button type="class btn btn-primary m-2" data-bs-toggle="modal" data-bs-target="#sigup">
+                <button type= "button"class="btn btn-outline-primary ms-2 " data-bs-toggle="modal" data-bs-target="#signin">
                   Log In
                 </button>
               </li>
@@ -64,6 +69,35 @@
 
 
     <!-- Modal start -->
+    <div class="modal fade" id="signin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form action="./congrtulation.html">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary " onclick="alert('Successfully login')">Submit</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
 
     <!-- Modal  End -->
 
@@ -102,8 +136,71 @@
 
     </header>
 
-
-
+    <div class="slideCard">
+       <!-- Swiper -->
+       <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><div class="card" style="width:18rem;">
+            <img src="https://images.unsplash.com/photo-1561154464-82e9adf32764?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              b5
+            </div>
+          </div></div>
+          <div class="swiper-slide"><div class="card" style="width:18rem;">
+            <img src="https://images.unsplash.com/photo-1561154464-82e9adf32764?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              b5
+            </div>
+          </div></div>
+          <div class="swiper-slide"><div class="card" style="width:18rem;">
+            <img src="https://images.unsplash.com/photo-1561154464-82e9adf32764?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              b5
+            </div>
+          </div></div>
+          <div class="swiper-slide"><div class="card" style="width:18rem;">
+            <img src="https://images.unsplash.com/photo-1561154464-82e9adf32764?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              b5
+            </div>
+          </div></div>
+          <div class="swiper-slide"><div class="card" style="width:18rem;">
+            <img src="https://images.unsplash.com/photo-1561154464-82e9adf32764?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              b5
+            </div>
+          </div></div>
+          <div class="swiper-slide"><div class="card" style="width:18rem;">
+            <img src="https://images.unsplash.com/photo-1561154464-82e9adf32764?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              b5
+            </div>
+          </div></div>
+        
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+  
+  
+    </div>
 
 
 
@@ -243,6 +340,11 @@
 
 
   <script src="./js/bootstrap.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/scripts.js"></script>
+
 
 
 </body>
